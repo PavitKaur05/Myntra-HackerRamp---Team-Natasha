@@ -9,8 +9,12 @@ virtually and get a fair idea of the product.
 ## Implementation ##
 ### Backend ###
 The data related to products available is stored on a server in the form of:
-Product ID | Product Brand 
------------- | -------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
+Product ID | Product Brand | Product Description | Product Price | Product Image
+------------ | -------------|------------------- | --------------- | -------------
+List of product ID | List of Brand | List of description | List of Price | List of Images
+
+### Frontend ###
+The frontend is an android application whose working is as:
+![picture](Images/SplashScreen.jpeg)
+
 
