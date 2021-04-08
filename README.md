@@ -25,9 +25,19 @@ The frontend is an android application whose working is as below.
 
 * If the shopper selects the clothing option the next screen showing the available clothing option opens up. The shopper selects the cloth that he wishes to try and clicks on the try-on option.He then clicks his image and clicks on the send option. The image of person along with the link of the cloth is send to the ACGPN network which process the image and returns the image with the trial cloths worn on the persons body.
 
-<img src="Images/ClothingOptions.jpeg" width="250" height="500">&nbsp;&nbsp;<img src="Images/Try-OnDialog.jpeg" width="250" height="500">&nbsp;&nbsp;<img src="Images/TryOnClick.png" width="250" height="500">
+<img src="Images/ClothingOptions.jpeg" width="250" height="500">&nbsp;&nbsp;<img src="Images/Try-OnDialog.jpeg" width="250" height="500">
 
-<img src="Images/TruOnResult.png" width="250" height="500">
+<img src="Images/TryOnClick.png" width="250" height="500">&nbsp;&nbsp;<img src="Images/TruOnResult.png" width="250" height="500">
+
+### Deep Learning Model ###
+The cloth virtual Try-On uses the ACGPN network. ACGPN generally involves three major modules:
+* First, a semantic layout generation module utilizes semantic segmentation of the reference image to progressively predict the desired semantic layout after try-on. 
+* Second, a clothes warping module warps clothing images according to the generated semantic layout, where a second-order difference constraint is introduced to stabilize the warping process during training. 
+* Third, an inpainting module for content fusion integrates all information (e.g. reference image, semantic layout, warped clothes) to adaptively produce each semantic part of human body. 
+
+The makeup virtual Try-On ......
+
+## Repository Details ##
 
 
 
