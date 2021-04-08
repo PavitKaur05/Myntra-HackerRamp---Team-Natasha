@@ -57,3 +57,8 @@ The frontend is an android application whose working is as below.
 * The model when run on google colab generates the developer api link. 
 * The link for makeup model is stored in [LipSticks.java](VirtualTryOnApp/app/src/main/java/com/example/virtualtryonapp/LipSticks.java) as link/api/makeup in the variable imageUploadUrl
 * The link for cloth try-on model is stored in [DetailsPage.java](VirtualTryOnApp/app/src/main/java/com/example/virtualtryonapp/DetailsPage.java) as link/api/tryon in the variable imageUploadUrl
+
+## Contributors ##
+* Natasha Choudhary
+* Pavit Kaur
+* Ritika Gupta
