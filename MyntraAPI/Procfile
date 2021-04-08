@@ -1,1 +1,0 @@
-web: gunicorn MyntraAPI.wsgi:application --log-file -
