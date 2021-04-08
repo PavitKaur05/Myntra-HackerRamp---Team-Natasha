@@ -58,6 +58,10 @@ The frontend is an android application whose working is as below.
 * The link for makeup model is stored in [LipSticks.java](VirtualTryOnApp/app/src/main/java/com/example/virtualtryonapp/LipSticks.java) as link/api/makeup in the variable imageUploadUrl
 * The link for cloth try-on model is stored in [DetailsPage.java](VirtualTryOnApp/app/src/main/java/com/example/virtualtryonapp/DetailsPage.java) as link/api/tryon in the variable imageUploadUrl
 
+## References ##
+* https://github.com/xyfer17/Virtual-Makeup
+* https://github.com/minar09/ACGPN
+
 ## Contributors ##
 * Natasha Choudhary
 * Pavit Kaur
