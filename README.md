@@ -10,10 +10,19 @@ virtually and get a fair idea of the product.
 
 ## Implementation ##
 ### Backend ###
+#### Product Database ####
 The data related to products available is stored on a server in the form of:
 Product ID | Product Brand | Product Description | Product Price | Product Image
 ------------ | -------------|------------------- | --------------- | -------------
 List of product ID | List of Brand | List of description | List of Price | List of Images
+
+#### Deep Learning Model ####
+The cloth virtual Try-On uses the ACGPN network. ACGPN generally involves three major modules:
+* First, a semantic layout generation module utilizes semantic segmentation of the reference image to progressively predict the desired semantic layout after try-on. 
+* Second, a clothes warping module warps clothing images according to the generated semantic layout, where a second-order difference constraint is introduced to stabilize the warping process during training. 
+* Third, an inpainting module for content fusion integrates all information (e.g. reference image, semantic layout, warped clothes) to adaptively produce each semantic part of human body. 
+
+The makeup virtual Try-On uses landmark detection 
 
 ### Frontend ###
 The frontend is an android application whose working is as below.
@@ -31,13 +40,6 @@ The frontend is an android application whose working is as below.
 
 <img src="Images/TryOnClick.png" width="250" height="500">&nbsp;&nbsp;<img src="Images/TruOnResult.png" width="250" height="500">
 
-### Deep Learning Model ###
-The cloth virtual Try-On uses the ACGPN network. ACGPN generally involves three major modules:
-* First, a semantic layout generation module utilizes semantic segmentation of the reference image to progressively predict the desired semantic layout after try-on. 
-* Second, a clothes warping module warps clothing images according to the generated semantic layout, where a second-order difference constraint is introduced to stabilize the warping process during training. 
-* Third, an inpainting module for content fusion integrates all information (e.g. reference image, semantic layout, warped clothes) to adaptively produce each semantic part of human body. 
-
-The makeup virtual Try-On ......
 
 ## Repository Details ##
 
