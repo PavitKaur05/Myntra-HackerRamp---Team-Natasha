@@ -1,4 +1,6 @@
-# Myntra-HackerRamp---Team-Natasha
+# Myntra-HackerRamp
+# Team Name-Natasha
+# Title- Customer Delight
 ## Project Description ##
 Some of the common problems which customers face in online shopping are:
 * While doing online shopping people do not get a fair idea of the look of the cloth. It is difficult to be sure that whether the color goes well with person’s complexion or whether the fit is appropriate with context of person’s body. 
