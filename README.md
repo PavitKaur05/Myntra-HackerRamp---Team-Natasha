@@ -44,9 +44,10 @@ The frontend is an android application whose working is as below.
 ## Repository Details ##
 
 * [Images](Images) contains the images of our application
-* [Backend](Backend) contains the code for endpoint to add data to our database
-  * [Api](https://documenter.getpostman.com/view/11073336/TzCMeUAy) contains the product list
-  * [Model](Backend/ModelApi.ipynb) contains the deep learning model code
+* [Backend](Backend) contains the server side code as follows:
+  * [Api](https://github.com/PavitKaur05/Myntra-HackerRamp---Team-Natasha/tree/main/Backend/MyntraAPI) contains the code for endpoints to add data to our product database and hosted using Heroku: https://fathomless-refuge-03183.herokuapp.com
+  * [Model](Backend/ModelApi.ipynb) contains the code for endpoints to serve Deep Learning Models processing and executed using flask-ngrok library in Google colab
+  * Check out our API Documentation [here] (https://documenter.getpostman.com/view/11073336/TzCMeUAy)
 
 * [Frontend](VirtualTryOnApp) contains the android application code
 
