@@ -14,8 +14,18 @@ Product ID | Product Brand | Product Description | Product Price | Product Image
 List of product ID | List of Brand | List of description | List of Price | List of Images
 
 ### Frontend ###
-The frontend is an android application whose working is as:
+The frontend is an android application whose working is as below.
+* The first screen is the splash screen followed by the options screen. 
 
-<img src="Images/SplashScreen.jpeg" title="Splash Screen" width="250" height="500">&nbsp;&nbsp;<img src="Images/SplashScreen.jpeg" width="250" height="500">
+<img src="Images/SplashScreen.jpeg" title="Splash Screen" width="250" height="500">&nbsp;&nbsp;<img src="Images/OptionsScreen.jpeg" width="250" height="500">
+
+* If the shopper selects the makeup option the next screen showing the color of makeup option opens up. The shopper clicks his image and selects the colour of makeup that he wishes to try. The image of person along with the hex code of colour is send to the landmark detection model which process the image and returns the image with the makeup done.
+
+<img src="Images/MakeUpTryOn.jpeg" width="250" height="500">&nbsp;&nbsp;<img src="Images/MakeUpClick.png" width="250" height="500">&nbsp;&nbsp;<img src="Images/MakeUpResult.png" width="250" height="500">
+
+* If the shopper selects the clothing option the next screen showing the available clothing option opens up. The shopper selects the cloth that he wishes to try and clicks on the try-on option.He then clicks his image and clicks on the send option. The image of person along with the link of the cloth is send to the ACGPN network which process the image and returns the image with the trial cloths worn on the persons body.
+
+<img src="Images/ClothingOptions.jpeg" width="250" height="500">&nbsp;&nbsp;<img src="Images/MakeUpClick.png" width="250" height="500">&nbsp;&nbsp;<img src="Images/MakeUpResult.png" width="250" height="500">
+
 
 
