@@ -22,7 +22,7 @@ The cloth virtual Try-On uses the ACGPN network. ACGPN generally involves three 
 * Second, a clothes warping module warps clothing images according to the generated semantic layout, where a second-order difference constraint is introduced to stabilize the warping process during training. 
 * Third, an inpainting module for content fusion integrates all information (e.g. reference image, semantic layout, warped clothes) to adaptively produce each semantic part of human body. 
 
-The makeup virtual Try-On uses landmark detection 
+The makeup virtual Try-On uses landmark detection to find points of interest on the persons face and then uses ImageDraw for applying makeup changes
 
 ### Frontend ###
 The frontend is an android application whose working is as below.
@@ -43,5 +43,11 @@ The frontend is an android application whose working is as below.
 
 ## Repository Details ##
 
+## Execution Details ##
 
+* The product details database is deployed on the api:
+* The model when run on google colab generates the developer api link. 
+* The link for makeup model is stored in [a link][Myntra-HackerRamp---Team-Natasha/VirtualTryOnApp/app/src/main/java/com/example/virtualtryonapp/LipSticks.java) 
+as
 
+as link//api/makeup/
