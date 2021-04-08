@@ -25,7 +25,9 @@ The frontend is an android application whose working is as below.
 
 * If the shopper selects the clothing option the next screen showing the available clothing option opens up. The shopper selects the cloth that he wishes to try and clicks on the try-on option.He then clicks his image and clicks on the send option. The image of person along with the link of the cloth is send to the ACGPN network which process the image and returns the image with the trial cloths worn on the persons body.
 
-<img src="Images/ClothingOptions.jpeg" width="250" height="500">&nbsp;&nbsp;<img src="Images/Try-OnDialog.jpeg" width="250" height="500">&nbsp;&nbsp;<img src="Images/TryOnClick.png" width="250" height="500">&nbsp;&nbsp;<img src="Images/TruOnResult.png" width="250" height="500">
+<img src="Images/ClothingOptions.jpeg" width="250" height="500">&nbsp;&nbsp;<img src="Images/Try-OnDialog.jpeg" width="250" height="500">&nbsp;&nbsp;<img src="Images/TryOnClick.png" width="250" height="500">
+
+<img src="Images/TruOnResult.png" width="250" height="500">
 
 
 
