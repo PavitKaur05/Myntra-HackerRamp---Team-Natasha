@@ -44,7 +44,11 @@ The frontend is an android application whose working is as below.
 ## Repository Details ##
 
 * [Images](Images) contains the images of our application
-* 
+* [Backend](Backend) contains the backend code
+  * [Api](https://documenter.getpostman.com/view/11073336/TzCMeUAy) contains the product list
+  * [Model](Backend/ModelApi.ipynb) contains the deep learning model code
+
+* [Frontend](VirtualTryOnApp) contains the android application code
 
 ## Execution Details ##
 
