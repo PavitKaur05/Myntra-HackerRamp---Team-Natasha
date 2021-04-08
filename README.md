@@ -1,6 +1,6 @@
 # Myntra-HackerRamp
 # Team Name-Natasha
-# Title- Customer Delight
+# Theme- Customer Delight
 ## Project Description ##
 Some of the common problems which customers face in online shopping are:
 * While doing online shopping people do not get a fair idea of the look of the cloth. It is difficult to be sure that whether the color goes well with person’s complexion or whether the fit is appropriate with context of person’s body. 
@@ -45,9 +45,9 @@ The frontend is an android application whose working is as below.
 
 * [Images](Images) contains the images of our application
 * [Backend](Backend) contains the server side code as follows:
-  * [Api](https://github.com/PavitKaur05/Myntra-HackerRamp---Team-Natasha/tree/main/Backend/MyntraAPI) contains the code for endpoints to add data to our product database and hosted using Heroku: https://fathomless-refuge-03183.herokuapp.com
-  * [Model](Backend/ModelApi.ipynb) contains the code for endpoints to serve Deep Learning Models processing and executed using flask-ngrok library in Google colab
-  * Check out our API Documentation [here] (https://documenter.getpostman.com/view/11073336/TzCMeUAy)
+  * [MyntraApi](https://github.com/PavitKaur05/Myntra-HackerRamp---Team-Natasha/tree/main/Backend/MyntraAPI) contains the code for endpoints to add data to our product database and hosted using Heroku: https://fathomless-refuge-03183.herokuapp.com
+  * [ModelApi.ipynb](Backend/ModelApi.ipynb) contains the code for endpoints to serve Deep Learning Models processing and executed using flask-ngrok library in Google colab
+  * Check out our API Documentation [here](https://documenter.getpostman.com/view/11073336/TzCMeUAy)
 
 * [Frontend](VirtualTryOnApp) contains the android application code
 
