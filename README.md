@@ -47,7 +47,7 @@ The frontend is an android application whose working is as below.
 
 * The product details database is deployed on the api:
 * The model when run on google colab generates the developer api link. 
-* The link for makeup model is stored in [a link][Myntra-HackerRamp---Team-Natasha/VirtualTryOnApp/app/src/main/java/com/example/virtualtryonapp/LipSticks.java) 
+* The link for makeup model is stored in [a link](Myntra-HackerRamp---Team-Natasha/VirtualTryOnApp/app/src/main/java/com/example/virtualtryonapp/LipSticks.java) 
 as
 
 as link//api/makeup/
