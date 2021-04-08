@@ -16,6 +16,6 @@ List of product ID | List of Brand | List of description | List of Price | List 
 ### Frontend ###
 The frontend is an android application whose working is as:
 
-<img src="Images/SplashScreen.jpeg" title="Splash Screen" width="250" height="500"><img src="Images/SplashScreen.jpeg" width="250" height="500">
+<img src="Images/SplashScreen.jpeg" title="Splash Screen" width="250" height="500">&nbsp;&nbsp;<img src="Images/SplashScreen.jpeg" width="250" height="500">
 
 
