@@ -43,6 +43,9 @@ The frontend is an android application whose working is as below.
 
 ## Repository Details ##
 
+* [Images](Images) contains the images of our application
+* 
+
 ## Execution Details ##
 
 * The product details database is deployed on the api:
